@@ -1,5 +1,6 @@
 {
-  "homepage": "https://Mustafa475689.github.io/vite",
+  "homepage": "https://mediocre.github.io/tutorial/",
+
   "name": "tic-tac",
   
   "private": true,
@@ -9,9 +10,11 @@
   "type": "module",
   
   "scripts": {
+
+    "predeploy": "npm run build",
+
+    "deploy": "gh-pages -d dist",
   
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
   "dev": "vite",
   
     
